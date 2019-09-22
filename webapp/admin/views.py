@@ -8,4 +8,4 @@ bp = Blueprint("admin", __name__, url_prefix="/admin")
 @admin_required
 def admin_index():
     title = "Панель управления"
-    return render_template("admin/index.html", page_title=title)
+    return render_template("admin/admin_index.html", page_title=title)
